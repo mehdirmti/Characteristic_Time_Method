@@ -1,6 +1,6 @@
 # Research Project: characteristic time (CTM) method 
 
-Welcome to the repository for characteristic time method (CTM). This repository contains the code and data used to develop Characteristic Time Method (CTM) to predict Soil hydraulic properties estimation fromone-dimensional infiltration experiments, along with documentation and instructions for usage.
+Welcome to the repository for characteristic time method (CTM). This repository contains the code and data used to develop Characteristic Time Method (CTM) to predict Soil hydraulic properties estimation from one-dimensional infiltration experiments, along with documentation and instructions for usage.
 
 ## Overview
 
