@@ -19,7 +19,6 @@ The topic of infiltration of water into variably saturated soils has received mu
 - **Documentation**: Contains additional documentation related to the research project.
 - **License**: Specifies the terms of use for the code and data.
 - **environment.yml**: Specifies the required dependencies for running the code.
-- **Output**: Provides main outputs of the code.
 
 ## Usage
 
