@@ -11,6 +11,7 @@ The infiltration process is quantified by determining the amount of water that i
 $i(t) = \frac{dI(t)}{dt}$
 
 ![plot](./Sample Figures/cumulative infiltration.png)
+
 Figure 1: Example cumulative infiltration curve 
 
 In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including S and $K_s$. According to their theoretical definitions, S is a measurable physical quantity, which expresses the capacity of a porous medium to take up and release liquids by capillarity, whereas Ks measures the soil's ability to transmit water under the influence of gravity.
