@@ -1,15 +1,20 @@
-# Research Project: characteristic time (CTM) method 
+# Python and Matlab scripts employing characteristic time (CTM) method to estimate soil hydraulic properties from 1D infiltration data
 
-Welcome to the repository for characteristic time method (CTM). This repository contains the code and data used to develop Characteristic Time Method (CTM) to predict Soil hydraulic properties estimation from one-dimensional infiltration experiments, along with documentation and instructions for usage.
+Welcome to the repository for the characteristic time method (CTM). This repository contains the code of soil infiltration Characteristic Time Method (CTM) to predict Soil hydraulic properties estimation from 1D-dimensional infiltration experiments, along with example data, documentation, and instructions for usage.
 
 ## Overview
 
-This repository blongs of a research paper titled "Soil hydraulic properties estimation fromone-dimensional
-infiltration experiments using characteristic time concept" authored by Rahmati et al. (2020). 
+Accurate and reliable estimation of hydraulic properties of variably saturated soils from infiltration experiments is still a major challenge in many research fields such as hydrology, irrigation, civil engineering, and environmental science. Soil sorptivity (S) - a measurable physical quantity, that expresses the capacity of a porous medium to absorb or release liquids by capillarity, and saturated hydraulic conductivity (Ks), a measure of the soil’s ability to transmit water under the influence of gravity, are among the important hydraulic properties which are used to parametrize soil infiltration process in predictive models such as land surface models (LSMs). Infiltration is the process by which water enters the soil surface and it is one of the key fluxes in the hydrological cycle and the soil water balance. Water infiltration and the subsequent redistribution of water in the subsurface are two important processes that affect the soil water balance and influence several soil processes and functions including the availability of water and nutrients for plants, microbial activity, erosion rates, chemical weathering, and soil thermal and gas exchange between the soil and the atmosphere. 
 
-The Abstract of the paper reads:
+The infiltration process is quantified by determining the amount of water that infiltrates, over time, from which the cumulative infiltration, I(t), [L], and the infiltration rate, i(t), [L T-1] can be derived. i(t) and I(t) are related to each other by derivation:
 
-The topic of infiltration of water into variably saturated soils has received much attention in the soil physics literature in the past decades. Many different equations have been proposed to describe the infiltration process quantitatively. These equations range from simple empirical equations to more advanced semianalytical solutions of the Richards equation. The sorptivity, S, and the saturated hydraulic conductivity, Ks, in these equations are typically unknown and have to be estimated from, for example, measured cumulative infiltration data. Here, we use the so-called characteristic time (tchar) to design a new method, referred to as the characteristic time method (CTM) that estimates S, and Ks, from one-dimensional (1D) cumulative infiltration data. We demonstrate the usefulness and power of our proposed approach by comparing it with a suite of existing methods using synthetic cumulative infiltration data simulated by HYDRUS-1D for 12 synthetic soils reflecting different USDA textural classes, as well as experimental data selected from the Soil Water Infiltration Global (SWIG) database. Results demonstrate that the inferred values of S and Ks are in excellent agreement with their theoretical values used in the synthetically simulated infiltration experiments with Nash–Sutcliffe criterion values close to unity and RMSE values of 0.04 cm h^(-1/2) and 0.05 cm h^(-1), respectively. The proposed method also showed very high accuracy when applied on synthetic infiltration curves with added measurement noise, as well as robustness when applied to experimental data. Unlike previously published methods, the presented approach does not require knowledge of the time validity of the applied semianalytical solution for infiltration and, therefore, is applicable to infiltrations with durations from 5 min to several days. A script written in Python of the CTM method is provided in the supplemental material.
+$i(t) = frac{dI(t)}{dt}$
+
+In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including soil sorptivity (S) and saturated hydraulic conductivity (Ks). According to their theoretical definitions, S is a measurable physical quantity, which expresses the capacity of a porous medium to take up and release liquids by capillarity, whereas Ks measures the soil's ability to transmit water under the influence of gravity.
+
+
+
+
 
 ## Repository Structure
 
