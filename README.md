@@ -23,7 +23,7 @@ Figure 3 summarizes the `Characteristic time (CTM) method`:
 ![plot](./SampleFigures/flowchart.jpg)
 Figure 3. A flowchart illustrating the characteristic time method coupled with the iterative procedure (CTM-I) to find the characteristic time $`t_{char}`$ and to predict $S$ and $K_s$. The recommended value for both $ε$ and $d$ is 0.001. 
 
-The current repository provides algorithms scripted in `Python` and `Matlab` which can be downloaded and used. 
+The current repository provides algorithms scripted in `Python` and `Matlab` for easier application of the `CTM method`. 
 
 
 ## Repository Structure
