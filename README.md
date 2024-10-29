@@ -23,6 +23,8 @@ Figure 3 summarizes the `Characteristic time (CTM) method`:
 ![plot](./SampleFigures/flowchart.jpg)
 Figure 3. A flowchart illustrating the characteristic time method coupled with the iterative procedure (CTM-I) to find the characteristic time $`t_{char}`$ and to predict $S$ and $K_s$. The recommended value for both $ε$ and $d$ is 0.001. 
 
+The current repository provides algorithms scripted in `Python` and `Matlab` which can be downloaded and used. 
+
 
 ## Repository Structure
 
@@ -44,6 +46,9 @@ MIT License
 ## References
 
 Rahmati, Mehdi, Jan Vanderborght, Jirka Šimůnek, Jasper A. Vrugt, David Moret‐Fernández, Borja Latorre, Laurent Lassabatere, and Harry Vereecken. "Soil hydraulic properties estimation from one‐dimensional infiltration experiments using characteristic time concept." Vadose Zone Journal 19, no. 1 (2020): e20068.  https://doi.org/10.1002/vzj2.20068. 
+
+Rahmati M, Rezaei M, Lassabatere L, Morbidelli R, & Vereecken H. (2021). Simplified characteristic time method for accurate estimation of the soil hydraulic parameters from one-dimensional infiltration experiments. Vadose Zone J. 2021; 20:e20117. https://doi.org/10.1002/vzj2.20117
+
 
 ## Contact
 
