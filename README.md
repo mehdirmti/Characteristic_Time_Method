@@ -8,7 +8,7 @@ Accurate and reliable estimation of hydraulic properties of variably saturated s
 
 The infiltration process is quantified by determining the amount of water that infiltrates, over time, from which the cumulative infiltration, I(t), [L], and the infiltration rate, i(t), [L T-1] can be derived. i(t) and I(t) are related to each other by derivation:
 
-$i(t) = frac{dI(t)}{dt}$
+$i(t) = \frac{dI(t)}{dt}$
 
 In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including soil sorptivity (S) and saturated hydraulic conductivity (Ks). According to their theoretical definitions, S is a measurable physical quantity, which expresses the capacity of a porous medium to take up and release liquids by capillarity, whereas Ks measures the soil's ability to transmit water under the influence of gravity.
 
