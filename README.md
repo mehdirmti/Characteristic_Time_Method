@@ -14,11 +14,16 @@ $i(t) = \frac{dI(t)}{dt}$
 
 Figure 1: Example cumulative infiltration curve 
 
-In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including S and $K_s$. In general, there are two major approaches to estimating $S$ and $K_s$ from 1D infiltration experiments considered in the literature: 1) linearization approaches and 2) inverse estimation of $S$ and $K_s$ using curve-fitting methods.  [Rahmati et al. (2020)](https://doi.org/10.1002/vzj2.20068) also suggested an alternative method named the `Characteristic time (CTM) method` which uses the physical concept of the gravity time, $`t_{grav}`$, defined as the time when gravity and capillarity have the same impact on infiltration, to predict $S$ and $K_s$.    
+In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including S and $K_s$. In general, there are two major approaches to estimating $S$ and $K_s$ from 1D infiltration experiments considered in the literature: 1) linearization approaches and 2) inverse estimation of $S$ and $K_s$ using curve-fitting methods.  [Rahmati et al. (2020)](https://doi.org/10.1002/vzj2.20068) also suggested an alternative method named the `Characteristic time (CTM) method` which uses the physical concept of the gravity time, $`t_{grav}`$, defined as the time when gravity and capillarity have the same impact on infiltration (Figure 2), to predict $S$ and $K_s$.    
 
+![plot](./SampleFigures/gravity_capillarity.jpg)
+Figure 2: Temporal variations of capillary- and gravity-driven components’ contributions to cumulative infiltration for the case of an ideal soil 
 
+Figure 3 summarizes the `Characteristic time (CTM) method`: 
+![plot](./SampleFigures/flowchart.jpg)
+Figure 3. A flowchart illustrating the characteristic time method coupled with the iterative procedure (CTM-I) to find the characteristic time $`t_{char}`$ and to predict $S$ and $K_s$. The recommended value for both $ε$ and $d$ is 0.001. 
 
-
+The current repository provides algorithms scripted in `Python` and `Matlab` for easier application of the `CTM method`. 
 
 
 ## Repository Structure
@@ -41,6 +46,9 @@ MIT License
 ## References
 
 Rahmati, Mehdi, Jan Vanderborght, Jirka Šimůnek, Jasper A. Vrugt, David Moret‐Fernández, Borja Latorre, Laurent Lassabatere, and Harry Vereecken. "Soil hydraulic properties estimation from one‐dimensional infiltration experiments using characteristic time concept." Vadose Zone Journal 19, no. 1 (2020): e20068.  https://doi.org/10.1002/vzj2.20068. 
+
+Rahmati M, Rezaei M, Lassabatere L, Morbidelli R, & Vereecken H. (2021). Simplified characteristic time method for accurate estimation of the soil hydraulic parameters from one-dimensional infiltration experiments. Vadose Zone J. 2021; 20:e20117. https://doi.org/10.1002/vzj2.20117
+
 
 ## Contact
 
