@@ -10,7 +10,7 @@ The infiltration process is quantified by determining the amount of water that i
 
 $i(t) = \frac{dI(t)}{dt}$
 
-![plot](./Sample Figures/cumulative infiltration.png)
+![plot](./SampleFigures/cumulative infiltration.png)
 
 Figure 1: Example cumulative infiltration curve 
 
