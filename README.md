@@ -10,11 +10,12 @@ The infiltration process is quantified by determining the amount of water that i
 
 $i(t) = \frac{dI(t)}{dt}$
 
-![plot](./SampleFigures/cumulative infiltration.png)
+![plot](./SampleFigures/cumulative_infiltration.png)
 
 Figure 1: Example cumulative infiltration curve 
 
-In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including S and $K_s$. According to their theoretical definitions, S is a measurable physical quantity, which expresses the capacity of a porous medium to take up and release liquids by capillarity, whereas Ks measures the soil's ability to transmit water under the influence of gravity.
+In the past decades, a large number of theoretical, semiempirical, and empirical models have appeared in the literature that quantitatively describe water infiltration into the soil. These models were used for the characterization of soil hydraulic properties, including S and $K_s$. In general, there are two major approaches to estimating $S$ and $K_s$ from 1D infiltration experiments considered in the literature: 1) linearization approaches and 2) inverse estimation of $S$ and $K_s$ using curve-fitting methods.  [Rahmati et al. (2020)](https://doi.org/10.1002/vzj2.20068) also suggested an alternative method named the `Characteristic time (CTM) method` which uses the physical concept of the gravity time, $`t_{grav}`$, defined as the time when gravity and capillarity have the same impact on infiltration, to predict $S$ and $K_s$.    
+
 
 
 
